@@ -1,0 +1,20 @@
+# Cria uma lista 
+# adicionar com o append():
+# 3 nomes
+
+
+#Remover com o remove() os 2 últimos nomes
+
+
+nomes= []
+
+nomes.append("Joao")
+nomes.append("Ana")
+nomes.append("Vitoria")
+
+print ("Pós adicionar:", nomes)
+
+nomes.remove("Joao")
+nomes.remove("Ana")
+
+print ("Pós Remover:", nomes)
